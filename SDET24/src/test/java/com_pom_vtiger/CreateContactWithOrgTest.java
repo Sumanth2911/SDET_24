@@ -29,6 +29,7 @@ public class CreateContactWithOrgTest {
  	  	JavaUtility ju=new JavaUtility();
  	  	ExcelUtility eu=new ExcelUtility();
  	    WebDriverUtility wu= new WebDriverUtility();
+
  	
  	  	String orgname =eu.getData("Sheet1", 1, 2)+"_"+ju.getRandomNum();
      	String conname=eu.getData("Sheet1", 1, 3)+"_"+ju.getRandomNum();
@@ -92,7 +93,7 @@ public class CreateContactWithOrgTest {
  	    {
  	    	System.out.println(conname+" is created===>pass");
  	    }else{
- 	    	System.out.println(conname+" is not created===>fail");
+ 	    	System.out.println(conname+" is not created===>failed");
  	    }
  	    
  	    hp.logOutAppln();
