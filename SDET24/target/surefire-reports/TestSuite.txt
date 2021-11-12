@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.884 s <<< FAILURE! - in TestSuite
+vtiger_baseClass.CreateOrgTest.createOrg  Time elapsed: 10.619 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Organization Name Already Exists!}
+  (Session info: chrome=95.0.4638.69): Organization Name Already Exists!
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-KSK1CVA', ip: '192.168.43.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\Users\vibha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 963a6bffd1d2f5e7af12e1b650d96dd0
+*** Element info: {Using=xpath, value=//span[@class='dvHeaderText']}
+	at vtiger_baseClass.CreateOrgTest.createOrg(CreateOrgTest.java:31)
+
