@@ -91,7 +91,7 @@ public class CreateContactWithOrgTest {
  	    ContactInfopage cip=new ContactInfopage(driver);
  	    if((cip.getConNameVerify().getText()).contains(conname))
  	    {
- 	    	System.out.println(conname+" is created===>pass");
+ 	    	System.out.println(conname+" is created===>passed");
  	    }else{
  	    	System.out.println(conname+" is not created===>failed");
  	    }
